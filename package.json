@@ -1,0 +1,23 @@
+{
+  "name": "coderhub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "jay",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/multer": "^3.0.2",
+    "@koa/router": "^12.0.0",
+    "dotenv": "^16.1.4",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.3.3"
+  }
+}
